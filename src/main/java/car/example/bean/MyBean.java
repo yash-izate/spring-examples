@@ -3,7 +3,7 @@ package car.example.bean;
 public class MyBean {
     private String message;
 
-    public void sentMessage(String message) {
+    public void setMessage(String message) {
         this.message = message;
     }
 
