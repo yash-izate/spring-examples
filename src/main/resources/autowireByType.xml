@@ -6,12 +6,12 @@
 
     <!-- bean definitions here -->
 
-    <bean id="specification" class="com.autowire.name.Specification" >
+    <bean id="specification" class="com.autowire.type.Specification" >
         <property name="make" value="Toyota"/>
         <property name="model" value="Corolla"/>
     </bean>
 
-    <bean id="myCar" class="com.autowire.name.Car" autowire="byName" >
+    <bean id="myCar" class="com.autowire.type.Car" autowire="byType" >
     </bean>
 
 </beans>
