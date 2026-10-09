@@ -1,12 +1,20 @@
 package com.componentscan;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component("employee")     // you can add custom name
 public class Employee {
+    @Value("1002")
     private int EmployeeId;
+
+    @Value("Kaushal")
     private String firstName;
+
+    @Value("Izate")
     private String lastName;
+
+    @Value("100500")
     private double salary;
 
     public int getEmployeeId() {

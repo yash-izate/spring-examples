@@ -8,10 +8,10 @@ public class App {
         ApplicationContext context = new ClassPathXmlApplicationContext("componentScanDemo.xml");
 
         Employee employee = context.getBean("employee", Employee.class);
-        employee.setEmployeeId(1001);
-        employee.setFirstName("Yash");
-        employee.setLastName("Izate");
-        employee.setSalary(10000.86);
+//        employee.setEmployeeId(1001);
+//        employee.setFirstName("Yash");
+//        employee.setLastName("Izate");
+//        employee.setSalary(10000.86);
         System.out.println(employee.toString());
     }
 }
